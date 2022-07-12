@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: #081921;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .calculator {
+  width: 290px;
+  height: 420px;
+}
+
+.main .calculator .screen {
+  width: 290px;
+  height: 98px;
+}
+
+.main .calculator .screen input {
+  width: 289px;
+  height: 98px;
+  border: none;
+  padding: 10px;
+  font-size: 25px;
+  background-color: #3A474D;
+  color: white;
+}
+
+.main .calculator .btns {
+  width: 290px;
+  height: 327px;
+}
+
+.main .calculator .btns .rows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .calculator .btns .rows button {
+  font-size: 20px;
+  background-color: #3A474D;
+  color: white;
+}
+
+.main .calculator .btns #btn {
+  width: 73px;
+  height: 65px;
+  border: 1px solid gray;
+}
+
+.main .calculator .btns #ccc {
+  width: 147px;
+  height: 65px;
+  border: 1px solid gray;
+  font-size: 20px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="calculator">
+            <div class="screen">
+                <input type="text" id="screen" placeholder="0" disabled >
+            </div>
+            <div class="btns">
+                <div class="rows">
+                    <button onclick="toza()" id="ccc">C</button>
+                    <button onclick="bitta()" id="btn">pop</button>
+                    <button onclick="ishla('/')" id="btn">/</button>
+                </div>
+                <div class="rows">
+                    <button onclick="ishla(7)" id="btn">7</button>
+                    <button onclick="ishla(8)" id="btn">8</button>
+                    <button onclick="ishla(9)" id="btn">9</button>
+                    <button onclick="ishla('*')" id="btn">*</button>
+                </div>
+                <div class="rows">
+                    <button onclick="ishla(4)" id="btn">4</button>
+                    <button onclick="ishla(5)" id="btn">5</button>
+                    <button onclick="ishla(6)" id="btn">6</button>
+                    <button onclick="ishla('-')" id="btn">-</button>
+                </div>
+                <div class="rows">
+                    <button onclick="ishla(1)" id="btn">1</button>
+                    <button onclick="ishla(2)" id="btn">2</button>
+                    <button onclick="ishla(3)" id="btn">3</button>
+                    <button onclick="ishla('+')" id="btn">+</button>
+                </div>
+                <div class="rows">
+                    <button onclick="ishla(0)" id="btn">0</button>
+                    <button onclick="ishla(00)" id="btn">00</button>
+                    <button onclick="ishla('.')" id="btn">.</button>
+                    <button onclick="Teng()" id="btn">=</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
